@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38ECAC59196D2A9B00065FD2 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ECAC58196D2A9B00065FD2 /* SplashScreenViewController.m */; };
+		38ECAC5E196D2B0100065FD2 /* splash_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 38ECAC5A196D2B0100065FD2 /* splash_1.png */; };
+		38ECAC5F196D2B0100065FD2 /* splash_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 38ECAC5B196D2B0100065FD2 /* splash_2.png */; };
+		38ECAC60196D2B0100065FD2 /* splash_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 38ECAC5C196D2B0100065FD2 /* splash_3.png */; };
+		38ECAC61196D2B0100065FD2 /* splash_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 38ECAC5D196D2B0100065FD2 /* splash_4.png */; };
 		CE325AE6196A913200C5738E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE325AE5196A913200C5738E /* Foundation.framework */; };
 		CE325AE8196A913200C5738E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE325AE7196A913200C5738E /* CoreGraphics.framework */; };
 		CE325AEA196A913200C5738E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE325AE9196A913200C5738E /* UIKit.framework */; };
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38ECAC57196D2A9B00065FD2 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		38ECAC58196D2A9B00065FD2 /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		38ECAC5A196D2B0100065FD2 /* splash_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_1.png; sourceTree = "<group>"; };
+		38ECAC5B196D2B0100065FD2 /* splash_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_2.png; sourceTree = "<group>"; };
+		38ECAC5C196D2B0100065FD2 /* splash_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_3.png; sourceTree = "<group>"; };
+		38ECAC5D196D2B0100065FD2 /* splash_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_4.png; sourceTree = "<group>"; };
 		CE325AE2196A913200C5738E /* BonafideClothing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonafideClothing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE325AE5196A913200C5738E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE325AE7196A913200C5738E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38ECAC62196D2B0A00065FD2 /* Splash Screen Photos */ = {
+			isa = PBXGroup;
+			children = (
+				38ECAC5A196D2B0100065FD2 /* splash_1.png */,
+				38ECAC5B196D2B0100065FD2 /* splash_2.png */,
+				38ECAC5C196D2B0100065FD2 /* splash_3.png */,
+				38ECAC5D196D2B0100065FD2 /* splash_4.png */,
+			);
+			name = "Splash Screen Photos";
+			sourceTree = "<group>";
+		};
 		CE325AD9196A913200C5738E = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +134,14 @@
 		CE325AEB196A913200C5738E /* BonafideClothing */ = {
 			isa = PBXGroup;
 			children = (
+				38ECAC62196D2B0A00065FD2 /* Splash Screen Photos */,
+				CE325AF7196A913200C5738E /* Main.storyboard */,
 				CE325AF4196A913200C5738E /* AppDelegate.h */,
 				CE325AF5196A913200C5738E /* AppDelegate.m */,
-				CE325AF7196A913200C5738E /* Main.storyboard */,
 				CE325AFA196A913200C5738E /* ViewController.h */,
 				CE325AFB196A913200C5738E /* ViewController.m */,
+				38ECAC57196D2A9B00065FD2 /* SplashScreenViewController.h */,
+				38ECAC58196D2A9B00065FD2 /* SplashScreenViewController.m */,
 				CE325AFD196A913200C5738E /* Images.xcassets */,
 				CE325AEC196A913200C5738E /* Supporting Files */,
 			);
@@ -228,9 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38ECAC60196D2B0100065FD2 /* splash_3.png in Resources */,
 				CE325AFE196A913200C5738E /* Images.xcassets in Resources */,
 				CE325AF0196A913200C5738E /* InfoPlist.strings in Resources */,
+				38ECAC5E196D2B0100065FD2 /* splash_1.png in Resources */,
 				CE325AF9196A913200C5738E /* Main.storyboard in Resources */,
+				38ECAC61196D2B0100065FD2 /* splash_4.png in Resources */,
+				38ECAC5F196D2B0100065FD2 /* splash_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE325AFC196A913200C5738E /* ViewController.m in Sources */,
+				38ECAC59196D2A9B00065FD2 /* SplashScreenViewController.m in Sources */,
 				CE325AF6196A913200C5738E /* AppDelegate.m in Sources */,
 				CE325AF2196A913200C5738E /* main.m in Sources */,
 			);
@@ -456,6 +486,7 @@
 				CE325B16196A913200C5738E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE325B17196A913200C5738E /* Build configuration list for PBXNativeTarget "BonafideClothingTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +495,7 @@
 				CE325B19196A913200C5738E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
