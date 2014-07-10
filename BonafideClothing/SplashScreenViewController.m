@@ -43,6 +43,7 @@
     if (ctr == 4) {
         [myTimer invalidate];
         
+        [self performSegueWithIdentifier:@"homeModal" sender:self];
         
     } else {
         
