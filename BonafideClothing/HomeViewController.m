@@ -85,4 +85,19 @@
 }
 */
 
+- (IBAction)facebookButtonPressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.facebook.com/bonafidestore"]];
+}
+
+- (IBAction)instagramButtonPressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://instagram.com/bonafidestore"]];
+}
+
+- (IBAction)tumblrButtonPressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://bonafidestore.tumblr.com/"]];
+}
+
+- (IBAction)twitterButtonPressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/bonafide_store"]];
+}
 @end

@@ -23,5 +23,13 @@
 @property (strong, nonatomic) IBOutlet SlideShow *slideshow;
 @property (strong, nonatomic) IBOutlet UILabel *promoInfoLabel;
 
+// Social Media Buttons
+- (IBAction)facebookButtonPressed:(id)sender;
+- (IBAction)instagramButtonPressed:(id)sender;
+- (IBAction)tumblrButtonPressed:(id)sender;
+- (IBAction)twitterButtonPressed:(id)sender;
+
+
+
 
 @end
