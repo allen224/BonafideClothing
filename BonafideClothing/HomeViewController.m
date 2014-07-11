@@ -10,6 +10,7 @@
 #import "SlideShow.h"
 #import "PromoInfoView.h"
 
+
 @interface HomeViewController ()
 
 @end
@@ -28,6 +29,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo_nameWhite.png"]];
+    
     // Do any additional setup after loading the view.
     
     _slideshow.delegate = self;
@@ -46,9 +50,12 @@
     //start
     [_slideshow start];
     
-    //Hidde Info View
+    //Hide Info View
     self.promoInfoView.hidden = YES;
     self.promoInfoView.backgroundColor = [UIColor colorWithRed: 0.0 green: 0.0 blue:0.0 alpha:80.0];
+    
+  
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,8 +64,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)menuButtonClicked:(id)sender {
-}
+
 
 - (IBAction)closeButtonPressed:(id)sender {
     [_slideshow start];
@@ -72,6 +78,8 @@
     
     self.promoInfoLabel.text = promoInfoArray[_slideshow.currentIndex];
     self.promoInfoView.hidden = NO;
+    
+    
     
 }
 /*

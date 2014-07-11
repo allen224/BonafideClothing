@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "SlideShow.h"
-#import "PromoInfoView.h"
+
+
+@class PromoInfoView, MenuView;
 
 @interface HomeViewController : UIViewController <SlideShowDelegate>
 {
     NSArray *promoInfoArray;
 }
-- (IBAction)menuButtonClicked:(id)sender;
 
 - (IBAction)closeButtonPressed:(id)sender;
 

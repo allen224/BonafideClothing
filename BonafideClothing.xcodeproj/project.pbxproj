@@ -26,6 +26,8 @@
 		CE325B07196A913200C5738E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE325AE9196A913200C5738E /* UIKit.framework */; };
 		CE325B0F196A913200C5738E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE325B0D196A913200C5738E /* InfoPlist.strings */; };
 		CE325B11196A913200C5738E /* BonafideClothingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE325B10196A913200C5738E /* BonafideClothingTests.m */; };
+		CE9ECEB5196FEF3F0045CA6A /* menu-01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9ECEB4196FEF3F0045CA6A /* menu-01.png */; };
+		CE9ECEBD196FF0B60045CA6A /* logo_nameWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9ECEBC196FF0B60045CA6A /* logo_nameWhite.png */; };
 		CEA2D29F196E7AAB006C82CB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2D29E196E7AAB006C82CB /* HomeViewController.m */; };
 		CEA2D2A3196E7B18006C82CB /* SlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2D2A2196E7B18006C82CB /* SlideShow.m */; };
 		CEA2D2A5196E7C31006C82CB /* close copy.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA2D2A4196E7C31006C82CB /* close copy.png */; };
@@ -37,7 +39,6 @@
 		CEA2D2B2196E8B08006C82CB /* rotate1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEA2D2B1196E8B08006C82CB /* rotate1.jpg */; };
 		CEA2D2B4196E8B37006C82CB /* icons_vector.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA2D2B3196E8B37006C82CB /* icons_vector.png */; };
 		CEA2D2B6196E93A7006C82CB /* rotate1a.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA2D2B5196E93A7006C82CB /* rotate1a.png */; };
-		CEA2D2B9196E9577006C82CB /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2D2B8196E9577006C82CB /* MenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		CE325B0C196A913200C5738E /* BonafideClothingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BonafideClothingTests-Info.plist"; sourceTree = "<group>"; };
 		CE325B0E196A913200C5738E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE325B10196A913200C5738E /* BonafideClothingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonafideClothingTests.m; sourceTree = "<group>"; };
+		CE9ECEB4196FEF3F0045CA6A /* menu-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-01.png"; sourceTree = "<group>"; };
+		CE9ECEBC196FF0B60045CA6A /* logo_nameWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_nameWhite.png; sourceTree = "<group>"; };
 		CEA2D29D196E7AAB006C82CB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		CEA2D29E196E7AAB006C82CB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		CEA2D2A1196E7B18006C82CB /* SlideShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideShow.h; sourceTree = "<group>"; };
@@ -90,8 +93,6 @@
 		CEA2D2B1196E8B08006C82CB /* rotate1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rotate1.jpg; sourceTree = "<group>"; };
 		CEA2D2B3196E8B37006C82CB /* icons_vector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icons_vector.png; sourceTree = "<group>"; };
 		CEA2D2B5196E93A7006C82CB /* rotate1a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotate1a.png; sourceTree = "<group>"; };
-		CEA2D2B7196E9577006C82CB /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
-		CEA2D2B8196E9577006C82CB /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,8 @@
 		38ECAC62196D2B0A00065FD2 /* Splash Screen Photos */ = {
 			isa = PBXGroup;
 			children = (
+				CE9ECEBC196FF0B60045CA6A /* logo_nameWhite.png */,
+				CE9ECEB4196FEF3F0045CA6A /* menu-01.png */,
 				CEA2D2B3196E8B37006C82CB /* icons_vector.png */,
 				CEA2D2B1196E8B08006C82CB /* rotate1.jpg */,
 				CEA2D2B5196E93A7006C82CB /* rotate1a.png */,
@@ -225,8 +228,6 @@
 		CEA2D2A0196E7AB0006C82CB /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				CEA2D2B7196E9577006C82CB /* MenuView.h */,
-				CEA2D2B8196E9577006C82CB /* MenuView.m */,
 				CEA2D2A6196E7C59006C82CB /* PromoInfoView.h */,
 				CEA2D2A7196E7C59006C82CB /* PromoInfoView.m */,
 				CEA2D29D196E7AAB006C82CB /* HomeViewController.h */,
@@ -314,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38ECAC60196D2B0100065FD2 /* splash_3.png in Resources */,
+				CE9ECEB5196FEF3F0045CA6A /* menu-01.png in Resources */,
 				CEA2D2B4196E8B37006C82CB /* icons_vector.png in Resources */,
 				CE325AFE196A913200C5738E /* Images.xcassets in Resources */,
 				CEA2D2B6196E93A7006C82CB /* rotate1a.png in Resources */,
@@ -326,6 +328,7 @@
 				CEA2D2AD196E804E006C82CB /* test_2.jpeg in Resources */,
 				CEA2D2AC196E804E006C82CB /* test_1.jpeg in Resources */,
 				CEA2D2AE196E804E006C82CB /* test_3.jpeg in Resources */,
+				CE9ECEBD196FF0B60045CA6A /* logo_nameWhite.png in Resources */,
 				CEA2D2B0196E8AC9006C82CB /* NavBar.png in Resources */,
 				CEA2D2B2196E8B08006C82CB /* rotate1.jpg in Resources */,
 			);
@@ -351,7 +354,6 @@
 				38ECAC59196D2A9B00065FD2 /* SplashScreenViewController.m in Sources */,
 				CEA2D2A8196E7C59006C82CB /* PromoInfoView.m in Sources */,
 				CE325AF6196A913200C5738E /* AppDelegate.m in Sources */,
-				CEA2D2B9196E9577006C82CB /* MenuView.m in Sources */,
 				CEA2D29F196E7AAB006C82CB /* HomeViewController.m in Sources */,
 				CE325AF2196A913200C5738E /* main.m in Sources */,
 			);
