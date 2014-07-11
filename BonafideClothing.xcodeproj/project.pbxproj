@@ -28,6 +28,7 @@
 		CE325B11196A913200C5738E /* BonafideClothingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE325B10196A913200C5738E /* BonafideClothingTests.m */; };
 		CE9ECEB5196FEF3F0045CA6A /* menu-01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9ECEB4196FEF3F0045CA6A /* menu-01.png */; };
 		CE9ECEBD196FF0B60045CA6A /* logo_nameWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9ECEBC196FF0B60045CA6A /* logo_nameWhite.png */; };
+		CE9ECEBF196FF8B90045CA6A /* icons_social-01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9ECEBE196FF8B90045CA6A /* icons_social-01.png */; };
 		CEA2D29F196E7AAB006C82CB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2D29E196E7AAB006C82CB /* HomeViewController.m */; };
 		CEA2D2A3196E7B18006C82CB /* SlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA2D2A2196E7B18006C82CB /* SlideShow.m */; };
 		CEA2D2A5196E7C31006C82CB /* close copy.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA2D2A4196E7C31006C82CB /* close copy.png */; };
@@ -79,6 +80,7 @@
 		CE325B10196A913200C5738E /* BonafideClothingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonafideClothingTests.m; sourceTree = "<group>"; };
 		CE9ECEB4196FEF3F0045CA6A /* menu-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-01.png"; sourceTree = "<group>"; };
 		CE9ECEBC196FF0B60045CA6A /* logo_nameWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_nameWhite.png; sourceTree = "<group>"; };
+		CE9ECEBE196FF8B90045CA6A /* icons_social-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons_social-01.png"; sourceTree = "<group>"; };
 		CEA2D29D196E7AAB006C82CB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		CEA2D29E196E7AAB006C82CB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		CEA2D2A1196E7B18006C82CB /* SlideShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideShow.h; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		38ECAC62196D2B0A00065FD2 /* Splash Screen Photos */ = {
 			isa = PBXGroup;
 			children = (
+				CE9ECEBE196FF8B90045CA6A /* icons_social-01.png */,
 				CE9ECEBC196FF0B60045CA6A /* logo_nameWhite.png */,
 				CE9ECEB4196FEF3F0045CA6A /* menu-01.png */,
 				CEA2D2B3196E8B37006C82CB /* icons_vector.png */,
@@ -322,6 +325,7 @@
 				CEA2D2A5196E7C31006C82CB /* close copy.png in Resources */,
 				CE325AF0196A913200C5738E /* InfoPlist.strings in Resources */,
 				38ECAC5E196D2B0100065FD2 /* splash_1.png in Resources */,
+				CE9ECEBF196FF8B90045CA6A /* icons_social-01.png in Resources */,
 				CE325AF9196A913200C5738E /* Main.storyboard in Resources */,
 				38ECAC61196D2B0100065FD2 /* splash_4.png in Resources */,
 				38ECAC5F196D2B0100065FD2 /* splash_2.png in Resources */,
