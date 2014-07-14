@@ -29,7 +29,6 @@
 		CE325AF2196A913200C5738E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE325AF1196A913200C5738E /* main.m */; };
 		CE325AF6196A913200C5738E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE325AF5196A913200C5738E /* AppDelegate.m */; };
 		CE325AF9196A913200C5738E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE325AF7196A913200C5738E /* Main.storyboard */; };
-		CE325AFC196A913200C5738E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE325AFB196A913200C5738E /* ViewController.m */; };
 		CE325AFE196A913200C5738E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE325AFD196A913200C5738E /* Images.xcassets */; };
 		CE325B05196A913200C5738E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE325B04196A913200C5738E /* XCTest.framework */; };
 		CE325B06196A913200C5738E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE325AE5196A913200C5738E /* Foundation.framework */; };
@@ -88,8 +87,6 @@
 		CE325AF4196A913200C5738E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE325AF5196A913200C5738E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE325AF8196A913200C5738E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE325AFA196A913200C5738E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE325AFB196A913200C5738E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE325AFD196A913200C5738E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE325B03196A913200C5738E /* BonafideClothingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonafideClothingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE325B04196A913200C5738E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -211,8 +208,6 @@
 				CE325AF7196A913200C5738E /* Main.storyboard */,
 				CE325AF4196A913200C5738E /* AppDelegate.h */,
 				CE325AF5196A913200C5738E /* AppDelegate.m */,
-				CE325AFA196A913200C5738E /* ViewController.h */,
-				CE325AFB196A913200C5738E /* ViewController.m */,
 				CEA2D29C196E7A78006C82CB /* Splash */,
 				CEA2D2A0196E7AB0006C82CB /* Home */,
 				CE325AFD196A913200C5738E /* Images.xcassets */,
@@ -391,7 +386,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA2D2A3196E7B18006C82CB /* SlideShow.m in Sources */,
-				CE325AFC196A913200C5738E /* ViewController.m in Sources */,
 				38ECAC59196D2A9B00065FD2 /* SplashScreenViewController.m in Sources */,
 				38F4BC45196FF598000083E0 /* SWRevealViewController.m in Sources */,
 				CEA2D2A8196E7C59006C82CB /* PromoInfoView.m in Sources */,
