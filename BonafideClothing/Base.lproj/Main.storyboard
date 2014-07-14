@@ -81,76 +81,11 @@
                         <viewControllerLayoutGuide type="bottom" id="O00-Vn-2cy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WcF-50-GZK">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JZA-I2-kyQ" customClass="SlideShow">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="253"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZj-TJ-F2n">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="SlideShowStopButtonClicked:" destination="4mR-Hs-8HP" eventType="touchUpInside" id="Vr2-Ag-oEw"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxq-wO-QeF" userLabel="Instagram Button">
-                                <rect key="frame" x="108" y="387" width="30" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="instagramButtonPressed:" destination="4mR-Hs-8HP" eventType="touchUpInside" id="gPc-b5-Cs8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOB-oC-l3m" userLabel="Tumblr Button">
-                                <rect key="frame" x="147" y="387" width="30" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="tumblrButtonPressed:" destination="4mR-Hs-8HP" eventType="touchUpInside" id="maq-b3-LyR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pju-M1-Hme" userLabel="Twitter Button">
-                                <rect key="frame" x="188" y="387" width="30" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="twitterButtonPressed:" destination="4mR-Hs-8HP" eventType="touchUpInside" id="Jq9-Vn-sDm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="157-Ku-AOX" userLabel="FB Button">
-                                <rect key="frame" x="68" y="387" width="30" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="facebookButtonPressed:" destination="4mR-Hs-8HP" eventType="touchUpInside" id="aPd-ud-Zv5"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons_social-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="Afh-s0-Tah">
-                                <rect key="frame" x="0.0" y="364" width="336" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rotate1a.png" translatesAutoresizingMaskIntoConstraints="NO" id="n3T-1x-WND">
-                                <rect key="frame" x="0.0" y="130" width="320" height="383"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <view alpha="0.84999999999999987" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yNH-3l-j2J" customClass="PromoInfoView">
-                                <rect key="frame" x="27" y="66" width="266" height="284"/>
+                            <view hidden="YES" alpha="0.84999999999999987" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yNH-3l-j2J" customClass="PromoInfoView">
+                                <rect key="frame" x="27" y="110" width="266" height="284"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrO-ib-0xx">
@@ -177,8 +112,159 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZA-I2-kyQ" customClass="SlideShow">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZj-TJ-F2n">
+                                        <rect key="frame" x="0.0" y="1" width="320" height="130"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="130" id="dyM-Yl-xsz"/>
+                                        </constraints>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="SlideShowStopButtonClicked:" destination="4mR-Hs-8HP" eventType="touchUpInside" id="Vr2-Ag-oEw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOP-SN-J17">
+                                <rect key="frame" x="160" y="248" width="160" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Collections" image="collection.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z7x-k0-mAs">
+                                <rect key="frame" x="0.0" y="248" width="160" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="118" id="0SS-yI-Uyf"/>
+                                </constraints>
+                                <state key="normal" title="Mens" image="mens.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9W-sP-Moh">
+                                <rect key="frame" x="160" y="130" width="160" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Brands" image="brands.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZxF-9R-bXn">
+                                <rect key="frame" x="0.0" y="130" width="160" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="118" id="Ori-SX-b56"/>
+                                    <constraint firstAttribute="width" constant="160" id="gci-oh-cTv"/>
+                                </constraints>
+                                <state key="normal" title="New Arrival" image="newArrival.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxq-wO-QeF" userLabel="Instagram Button">
+                                <rect key="frame" x="145" y="376" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="inst.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="instagramButtonPressed:" destination="4mR-Hs-8HP" eventType="touchUpInside" id="gPc-b5-Cs8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOB-oC-l3m" userLabel="Tumblr Button">
+                                <rect key="frame" x="183" y="376" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Q3b-T3-mzv"/>
+                                </constraints>
+                                <state key="normal" image="tumblr.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tumblrButtonPressed:" destination="4mR-Hs-8HP" eventType="touchUpInside" id="maq-b3-LyR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pju-M1-Hme" userLabel="Twitter Button">
+                                <rect key="frame" x="107" y="376" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="4oC-Pn-36r"/>
+                                </constraints>
+                                <state key="normal" image="twit.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="twitterButtonPressed:" destination="4mR-Hs-8HP" eventType="touchUpInside" id="Jq9-Vn-sDm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="157-Ku-AOX" userLabel="FB Button">
+                                <rect key="frame" x="69" y="376" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3wa-yF-cOh"/>
+                                    <constraint firstAttribute="width" constant="30" id="xta-UC-LbB"/>
+                                </constraints>
+                                <state key="normal" image="fb.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="facebookButtonPressed:" destination="4mR-Hs-8HP" eventType="touchUpInside" id="aPd-ud-Zv5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgr-6k-Kfg" userLabel="Mail Button">
+                                <rect key="frame" x="221" y="376" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mail Button" image="Mail.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="facebookButtonPressed:" destination="4mR-Hs-8HP" eventType="touchUpInside" id="nTQ-Bb-QEz"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xgr-6k-Kfg" firstAttribute="leading" secondItem="cOB-oC-l3m" secondAttribute="trailing" constant="8" symbolic="YES" id="19I-93-HIg"/>
+                            <constraint firstItem="Z7x-k0-mAs" firstAttribute="leading" secondItem="WcF-50-GZK" secondAttribute="leading" id="1ex-fx-pPs"/>
+                            <constraint firstItem="X9W-sP-Moh" firstAttribute="leading" secondItem="ZxF-9R-bXn" secondAttribute="trailing" id="4A5-i9-opZ"/>
+                            <constraint firstItem="Pju-M1-Hme" firstAttribute="bottom" secondItem="157-Ku-AOX" secondAttribute="bottom" id="4Hu-cx-KNv"/>
+                            <constraint firstItem="O00-Vn-2cy" firstAttribute="top" secondItem="157-Ku-AOX" secondAttribute="bottom" constant="10" id="6cj-1A-Wjd"/>
+                            <constraint firstItem="X9W-sP-Moh" firstAttribute="trailing" secondItem="OOP-SN-J17" secondAttribute="trailing" id="8TR-nO-zA4"/>
+                            <constraint firstItem="cOB-oC-l3m" firstAttribute="top" secondItem="kxq-wO-QeF" secondAttribute="top" id="B5y-XX-8X1"/>
+                            <constraint firstItem="Z7x-k0-mAs" firstAttribute="top" secondItem="OOP-SN-J17" secondAttribute="top" id="CkW-AZ-Nsh"/>
+                            <constraint firstItem="cOB-oC-l3m" firstAttribute="leading" secondItem="kxq-wO-QeF" secondAttribute="trailing" constant="8" symbolic="YES" id="DyL-Ic-GYe"/>
+                            <constraint firstItem="ZxF-9R-bXn" firstAttribute="trailing" secondItem="Z7x-k0-mAs" secondAttribute="trailing" id="Jm3-NY-Ajk"/>
+                            <constraint firstItem="kxq-wO-QeF" firstAttribute="leading" secondItem="Pju-M1-Hme" secondAttribute="trailing" constant="8" symbolic="YES" id="K4C-0Y-goT"/>
+                            <constraint firstItem="kxq-wO-QeF" firstAttribute="centerX" secondItem="WcF-50-GZK" secondAttribute="centerX" id="PBp-9W-zp6"/>
+                            <constraint firstItem="kxq-wO-QeF" firstAttribute="top" secondItem="Pju-M1-Hme" secondAttribute="top" id="Pnn-av-lEb"/>
+                            <constraint firstItem="157-Ku-AOX" firstAttribute="top" secondItem="Pju-M1-Hme" secondAttribute="top" id="QXd-iq-Sqq"/>
+                            <constraint firstItem="JZA-I2-kyQ" firstAttribute="top" secondItem="CP1-DY-mPT" secondAttribute="bottom" id="SbU-da-Ajo"/>
+                            <constraint firstAttribute="trailing" secondItem="xgr-6k-Kfg" secondAttribute="trailing" constant="69" id="T1m-eP-APB"/>
+                            <constraint firstItem="X9W-sP-Moh" firstAttribute="top" secondItem="ZxF-9R-bXn" secondAttribute="top" id="Ulm-8U-SNL"/>
+                            <constraint firstItem="xgr-6k-Kfg" firstAttribute="bottom" secondItem="cOB-oC-l3m" secondAttribute="bottom" id="VlF-2k-Yzh"/>
+                            <constraint firstAttribute="trailing" secondItem="JZA-I2-kyQ" secondAttribute="trailing" id="WbG-r6-UyX"/>
+                            <constraint firstItem="157-Ku-AOX" firstAttribute="leading" secondItem="WcF-50-GZK" secondAttribute="leading" constant="69" id="ZRb-5T-Gdd"/>
+                            <constraint firstItem="Z7x-k0-mAs" firstAttribute="top" secondItem="ZxF-9R-bXn" secondAttribute="bottom" id="bTF-tK-hJO"/>
+                            <constraint firstItem="X9W-sP-Moh" firstAttribute="leading" secondItem="OOP-SN-J17" secondAttribute="leading" id="d2E-Pc-g17"/>
+                            <constraint firstItem="X9W-sP-Moh" firstAttribute="bottom" secondItem="ZxF-9R-bXn" secondAttribute="bottom" id="fj7-ah-MsH"/>
+                            <constraint firstItem="JZA-I2-kyQ" firstAttribute="leading" secondItem="WcF-50-GZK" secondAttribute="leading" id="gC8-B6-Cjm"/>
+                            <constraint firstItem="cOB-oC-l3m" firstAttribute="top" secondItem="OOP-SN-J17" secondAttribute="bottom" constant="10" id="gV6-2J-syE"/>
+                            <constraint firstItem="ZxF-9R-bXn" firstAttribute="top" secondItem="JZA-I2-kyQ" secondAttribute="bottom" id="hUH-yO-Jqc"/>
+                            <constraint firstItem="X9W-sP-Moh" firstAttribute="trailing" secondItem="JZA-I2-kyQ" secondAttribute="trailing" id="mUf-CF-WlU"/>
+                            <constraint firstItem="cOB-oC-l3m" firstAttribute="top" secondItem="xgr-6k-Kfg" secondAttribute="top" id="r5r-4d-4nO"/>
+                            <constraint firstItem="kxq-wO-QeF" firstAttribute="bottom" secondItem="cOB-oC-l3m" secondAttribute="bottom" id="rG8-2b-8qX"/>
+                            <constraint firstItem="kxq-wO-QeF" firstAttribute="centerX" secondItem="yNH-3l-j2J" secondAttribute="centerX" id="s24-al-E42"/>
+                            <constraint firstItem="157-Ku-AOX" firstAttribute="top" secondItem="Z7x-k0-mAs" secondAttribute="bottom" constant="10" id="sEr-7K-0ac"/>
+                            <constraint firstItem="ZxF-9R-bXn" firstAttribute="leading" secondItem="Z7x-k0-mAs" secondAttribute="leading" id="sg6-iy-V7S"/>
+                            <constraint firstItem="kxq-wO-QeF" firstAttribute="bottom" secondItem="Pju-M1-Hme" secondAttribute="bottom" id="yrW-pR-ZKo"/>
+                            <constraint firstItem="Pju-M1-Hme" firstAttribute="leading" secondItem="157-Ku-AOX" secondAttribute="trailing" constant="8" symbolic="YES" id="zIo-Wi-aEC"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="j1p-Py-0ym">
                         <barButtonItem key="leftBarButtonItem" image="menu-01.png" id="vS9-7U-yXw">
@@ -188,6 +274,7 @@
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="promoInfoLabel" destination="qrO-ib-0xx" id="XwC-Ft-VtD"/>
                         <outlet property="promoInfoView" destination="yNH-3l-j2J" id="9IR-dc-lCJ"/>
@@ -200,10 +287,17 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Mail.png" width="40" height="40"/>
+        <image name="brands.png" width="212" height="222"/>
         <image name="close copy.png" width="1697" height="2400"/>
-        <image name="icons_social-01.png" width="913" height="254"/>
+        <image name="collection.png" width="212" height="222"/>
+        <image name="fb.png" width="40" height="40"/>
+        <image name="inst.png" width="40" height="40"/>
+        <image name="mens.png" width="212" height="222"/>
         <image name="menu-01.png" width="40" height="30"/>
-        <image name="rotate1a.png" width="848" height="1358"/>
+        <image name="newArrival.png" width="212" height="222"/>
+        <image name="tumblr.png" width="40" height="40"/>
+        <image name="twit.png" width="40" height="40"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
