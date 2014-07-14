@@ -12,6 +12,7 @@
 		38ECAC5F196D2B0100065FD2 /* splash_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 38ECAC5B196D2B0100065FD2 /* splash_2.png */; };
 		38ECAC60196D2B0100065FD2 /* splash_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 38ECAC5C196D2B0100065FD2 /* splash_3.png */; };
 		38ECAC61196D2B0100065FD2 /* splash_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 38ECAC5D196D2B0100065FD2 /* splash_4.png */; };
+		38F4BC45196FF598000083E0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F4BC44196FF598000083E0 /* SWRevealViewController.m */; };
 		CE325AE6196A913200C5738E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE325AE5196A913200C5738E /* Foundation.framework */; };
 		CE325AE8196A913200C5738E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE325AE7196A913200C5738E /* CoreGraphics.framework */; };
 		CE325AEA196A913200C5738E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE325AE9196A913200C5738E /* UIKit.framework */; };
@@ -58,6 +59,8 @@
 		38ECAC5B196D2B0100065FD2 /* splash_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_2.png; sourceTree = "<group>"; };
 		38ECAC5C196D2B0100065FD2 /* splash_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_3.png; sourceTree = "<group>"; };
 		38ECAC5D196D2B0100065FD2 /* splash_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_4.png; sourceTree = "<group>"; };
+		38F4BC43196FF598000083E0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		38F4BC44196FF598000083E0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		CE325AE2196A913200C5738E /* BonafideClothing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonafideClothing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE325AE5196A913200C5738E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE325AE7196A913200C5738E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,6 +143,15 @@
 			name = "Splash Screen Photos";
 			sourceTree = "<group>";
 		};
+		38F4BC42196FF525000083E0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				38F4BC43196FF598000083E0 /* SWRevealViewController.h */,
+				38F4BC44196FF598000083E0 /* SWRevealViewController.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
 		CE325AD9196A913200C5738E = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +185,7 @@
 		CE325AEB196A913200C5738E /* BonafideClothing */ = {
 			isa = PBXGroup;
 			children = (
+				38F4BC42196FF525000083E0 /* Library */,
 				38ECAC62196D2B0A00065FD2 /* Splash Screen Photos */,
 				CE325AF7196A913200C5738E /* Main.storyboard */,
 				CE325AF4196A913200C5738E /* AppDelegate.h */,
@@ -352,6 +365,7 @@
 				CEA2D2A3196E7B18006C82CB /* SlideShow.m in Sources */,
 				CE325AFC196A913200C5738E /* ViewController.m in Sources */,
 				38ECAC59196D2A9B00065FD2 /* SplashScreenViewController.m in Sources */,
+				38F4BC45196FF598000083E0 /* SWRevealViewController.m in Sources */,
 				CEA2D2A8196E7C59006C82CB /* PromoInfoView.m in Sources */,
 				CE325AF6196A913200C5738E /* AppDelegate.m in Sources */,
 				CEA2D29F196E7AAB006C82CB /* HomeViewController.m in Sources */,
