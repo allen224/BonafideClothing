@@ -30,6 +30,14 @@
 - (IBAction)tumblrButtonPressed:(id)sender;
 - (IBAction)twitterButtonPressed:(id)sender;
 
+// Sidebar
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+
+
+@property (weak, nonatomic) IBOutlet UIButton *newArrivalButton;
+@property (weak, nonatomic) IBOutlet UIButton *brandButton;
+@property (weak, nonatomic) IBOutlet UIButton *mensButton;
+@property (weak, nonatomic) IBOutlet UIButton *collectionButton;
 
 
 

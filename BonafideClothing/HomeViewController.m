@@ -9,6 +9,9 @@
 #import "HomeViewController.h"
 #import "SlideShow.h"
 #import "PromoInfoView.h"
+#import "SWRevealViewController.h"
+
+#define FONT_SOHO_STD(s) [UIFont fontWithName:@"Lato-Regular" size:s]
 
 
 @interface HomeViewController ()
@@ -54,7 +57,21 @@
     self.promoInfoView.hidden = YES;
     self.promoInfoView.backgroundColor = [UIColor colorWithRed: 0.0 green: 0.0 blue:0.0 alpha:80.0];
     
-  
+    
+    // Sidebar
+    // Change the color
+    _sidebarButton.tintColor = [UIColor whiteColor];
+    
+    // Set the side bar button action. When it's tapped, it will show up the sidebar
+    _sidebarButton.target = self.revealViewController;
+    _sidebarButton.action = @selector(revealToggle:);
+    
+    // Set the gesture
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    
+    
+    //_newArrivalButton.titleLabel.font = [UIFont fontWithName:@"Lato-Regular" size:14];
+    //button.titleLabel.font = [UIFont fontWithName:FONT_NAME size:FONT_SIZE];
     
 }
 
@@ -66,7 +83,8 @@
 
 
 
-- (IBAction)closeButtonPressed:(id)sender {
+- (IBAction)closeButtonPressed:(id)sender
+{
     [_slideshow start];
     self.promoInfoView.hidden = YES;
     
